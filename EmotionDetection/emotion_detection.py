@@ -1,3 +1,4 @@
+
 import requests
 import json
 
@@ -56,4 +57,4 @@ def emotion_detector(text_to_analyse):
     return result   
 
 # Example usage
-print(emotion_detector("I am so happy I am doing this."))
+print(emotion_detector("I think I am having fun"))
